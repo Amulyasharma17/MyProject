@@ -1,0 +1,9 @@
+tr:nth-child(even){
+    background-color:lightskyblue;
+}
+tr:nth-child(odd){
+    background-color:lightgreen;
+}
+img{
+    object-fit: fill;
+}
