@@ -1,0 +1,19 @@
+<html>
+    <head>
+
+        <script src="../js/calc.js"></script>
+        <link rel="stylesheet" href="../css/calc.css">
+    </head>
+    <body>
+    <pre>
+    <table>   
+    <h1>Calculator</h1>
+    <tr><td colspan="3"><input type="text" placeholder="Result" value="Result" id="output"></td><td><button onclick="clearFunc()">Clear</button></td></tr>
+    <tr><td><button onclick="dis('1')" id="one">1</button></td><td><button onclick="dis('2')" id="two">2</button></td><td><button onclick="dis('3')" id="three">3</button></td><td><button onclick="dis('/')" id="div">/</button></td></tr>
+    <tr><td><button onclick="dis('4')" id="four">4</button></td><td><button onclick="dis('5')" id="five">5</button></td><td><button onclick="dis('6')" id="six">6</button></td><td><button onclick="dis('-')" id="sub">-</button></td></tr>
+    <tr><td><button onclick="dis('7')" id="seven">7</button></td><td><button onclick="dis('8')" id="eight">8</button></td><td><button onclick="dis('9')" id="nine">9</button></td><td><button onclick="dis('+')" id="add">+</button></td></tr>
+    <tr><td><button onclick="dis('.')" id="dot">.</button></td><td><button onclick="dis('0')" id="zero">0</button></td><td><button id="equal" onclick="calculate()">=</button></td><td><button onclick="dis('*')" id="mul">*</button></td></tr>
+    </table>
+    </pre>
+    </body>
+</html>
