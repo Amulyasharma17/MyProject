@@ -1,0 +1,11 @@
+
+        pre{
+            background: lightseagreen;
+            width:600px;
+            border:10px solid mediumspringgreen;
+            border-radius: 30px;
+            box-shadow: 10px 10px gray;
+            padding:30px;
+            margin:20px;
+         }
+      
